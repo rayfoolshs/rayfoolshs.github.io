@@ -7,7 +7,7 @@
 <meta name="description" content="Live browser apps by Ray Foo: music notation, chord tools, rhythm trainers, 3D cutters and classroom utilities. All deployed on GitHub Pages.">
 <meta name="theme-color" content="#0b0d10">
 <meta property="og:title" content="Ray Foo — Apps &amp; Deployments">
-<meta property="og:description" content="23 live browser apps for music education, notation and making.">
+<meta property="og:description" content="24 live projects by Ray Foo: music education apps, plus 3D, classroom and desktop tools.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b0d10'/%3E%3Ctext x='50' y='68' font-family='system-ui,sans-serif' font-size='52' font-weight='600' fill='%237cf2c4' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
 <style>
@@ -99,6 +99,7 @@
   .card[data-cat="practice"]{--c:#7aa2ff}
   .card[data-cat="making"]{--c:#ffb86b}
   .card[data-cat="other"]{--c:#c79bff}
+  .card[data-cat="desktop"]{--c:#ff8fa3}
   .card h2{margin:0;font-size:1.02rem;letter-spacing:-.01em;font-weight:620;line-height:1.35;padding-right:4px}
   .card p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.5;flex:1}
   .foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px}
@@ -134,7 +135,7 @@
   <header>
     <span class="eyebrow">Ray Foo Productions</span>
     <h1>Apps &amp; deployments</h1>
-    <p class="lede">Every browser app I've shipped, live on GitHub Pages. Mostly music education — notation, chords, rhythm and practice — plus a few tools for 3D printing and the classroom. <a href="https://github.com/rayfoolshs">Source on GitHub ↗</a></p>
+    <p class="lede">Everything I've shipped. Browser apps run on GitHub Pages; the one desktop tool links to its repo. Mostly music education — notation, chords, rhythm and practice — plus tools for 3D printing and the classroom. <a href="https://github.com/rayfoolshs">Source on GitHub ↗</a></p>
 
     <div class="controls">
       <div class="search">
@@ -147,8 +148,9 @@
         <button class="chip" data-filter="practice" aria-pressed="false">Practice</button>
         <button class="chip" data-filter="making" aria-pressed="false">3D &amp; making</button>
         <button class="chip" data-filter="other" aria-pressed="false">Other</button>
+        <button class="chip" data-filter="desktop" aria-pressed="false">Desktop</button>
       </div>
-      <span class="count" id="count">23 apps</span>
+      <span class="count" id="count">24 apps</span>
     </div>
   </header>
 
@@ -290,6 +292,12 @@
       <h2>StagePlot Studio</h2>
       <p>Stage layout and input patch designer for events.</p>
       <div class="foot"><span class="tag">Other</span><span class="go">Open app →</span></div>
+    </a>
+
+    <a class="card" data-cat="desktop" data-search="karaoke tracks vocal remover demucs windows installer desktop tool" href="https://github.com/rayfoolshs/karaoke-tracks">
+      <h2>Karaoke Tracks</h2>
+      <p>Windows one-click vocal remover — turns songs into instrumental MP3s with Demucs. Desktop tool, not a web app.</p>
+      <div class="foot"><span class="tag">Desktop</span><span class="go">View on GitHub →</span></div>
     </a>
 
   </main>
